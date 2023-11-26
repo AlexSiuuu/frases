@@ -16,7 +16,7 @@ let fraces = [
     'text': 'No busques los errores, busca un remedio'
   },
   {
-    'autor' : 'Teresa de Calcuta:',
+    'autor' : 'Teresa de Calcuta',
     'text': 'La vida es una aventura, atrévete'
   },
   {
