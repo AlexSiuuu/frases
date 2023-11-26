@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-citas {
+    width: 60%;
+    height: 80vh;
+    background: rgba(227, 227, 227, 0.5);
+    border: 10px solid black;
+    border-radius: 25px;
+    transition: 700ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenedor-citas:hover {
+    transition: 700ms;
+    transform: scale(1.004);
+    box-shadow: 0 0 40px rgb(137, 137, 137);
+}
+
+.contenedor-citas h1 {
+    font-weight: 800;
+    font-size: 2.6em;
+    user-select: none;
+}
+
+.contenido-carta {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.frase {
+    height: 50%;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.autor {
+    height: 20%;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 200ms;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: rgb(234, 253, 255);
+    transition: 200ms;
+    transform: scale(1.01);
+    border: 2px solid black;
+    box-shadow: 0 0 30px rgb(186, 186, 186);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .autor {
+        height: 15%;
+    }
+    .frase {
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contenedor-citas {
+        height: 50%;
+    }
+    .contenedor-citas h1 {
+        font-size: 1.7em;
+        text-align: center;
+    }
+    .frase {
+        height: 80%;
+        font-size: 1.5em;
+        width: 110%;
+    }
+    .autor {
+        font-size: 1.2em;
+    }
+    .btn {
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+}
