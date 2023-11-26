@@ -95,14 +95,17 @@ body {
     .contenedor-citas h1 {
         font-size: 1.7em;
         text-align: center;
+        margin-top: -20px;
     }
     .frase {
         height: 80%;
         font-size: 1.5em;
-        width: 110%;
+        width: 130%;
     }
     .autor {
         font-size: 1.2em;
+        text-align: center;
+        width: 110%;
     }
     .btn {
         padding: 5px 10px;
