@@ -89,11 +89,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    body {
-        height: 100%;
-    }
     .contenedor-citas {
-        height: 50%;
+        height: 60%;
+        width: 90%;
     }
     .contenedor-citas h1 {
         font-size: 1.7em;
