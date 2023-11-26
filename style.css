@@ -89,6 +89,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        height: 100%;
+    }
     .contenedor-citas {
         height: 50%;
     }
@@ -99,7 +102,7 @@ body {
     }
     .frase {
         height: 80%;
-        font-size: 1.5em;
+        font-size: 1.3em;
         width: 130%;
     }
     .autor {
